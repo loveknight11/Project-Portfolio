@@ -1,0 +1,79 @@
+div {
+	display: inline;
+}
+
+a {
+	display: block;
+}
+
+.contents {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.logo {
+	width: 50%;
+}
+
+.header-text {
+	width: 50%;
+}
+
+.text-right {
+	text-align: right;
+}
+
+header , main {
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+hr {
+	width: 100%;
+	height: 5px;
+	background-color: #7d97ad;
+}
+
+.logo-image {
+	width: 175px;
+}
+
+.main-image {
+	width: 100%;
+}
+
+.header-color {
+	color: #7d97ad;
+}
+
+.small-image {
+	width: 100%;
+}
+
+.work {
+	width: 100%;
+}
+
+.small-container {
+	width: 33.33%;
+
+}
+
+.description {
+text-align: center;
+}
+
+.margin-left {
+	margin-left: 10px;
+}
+
+p {
+	font-size: 30px;
+}
+
+@media screen and (max-width: 360px){
+	p , a {
+		font-size: 0.75em;
+	}
+}
